@@ -3,7 +3,7 @@
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #066fcc;
-  --secondary-color:              #2caad2;
+  --secondary-color:              #0066CC;
   --section-bg-color:             #e2e8f0;
   --custom-btn-bg-color:          #0066CC;
   --custom-btn-bg-hover-color:    #3fd0d5;
@@ -18,7 +18,7 @@
   --h1-font-size:                 50px;
   --h2-font-size:                 46px;
   --h3-font-size:                 32px;
-  --h4-font-size:                 28px;
+  --h4-font-size:                 25px;
   --h5-font-size:                 24px;
   --h6-font-size:                 22px;
   --p-font-size:                  15px;
@@ -36,7 +36,6 @@
 }
 
 body {
-  background-image: url('images/Hq_bg.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
   background-size: cover; /* Adjusts the size of the background image to cover the entire container */
   font-family: var(--body-font-family);
 }
