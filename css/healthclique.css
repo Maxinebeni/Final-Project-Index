@@ -260,7 +260,7 @@ input[type=submit]{
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: url('../images/templatemo-wave-header.jpg'), linear-gradient(#348CD2, #FFFFFF);;
+  background-image: url('../images/header.jpg'), linear-gradient(#348CD2, #FFFFFF);;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -404,13 +404,27 @@ input[type=submit]{
   border: 0;
 }
 
-@media screen and (min-width: 992px) {
-  .navbar .dropdown:hover .dropdown-menu {
-    opacity: 1;
-    margin-top: 0;
-    pointer-events: auto;
-        display: none; /* Hide the button */
+@media screen and (max-width: 991px) {
+  .navbar .dropdown .dropdown-toggle {
+    background-color: var(--custom-btn-bg-color); /* Custom button blue color */
+    color: var(--white-color); /* White text color */
+    border-color: var(--custom-btn-bg-color); /* Custom button blue border color */
+  }
+}
 
+@media screen and (min-width: 992px) {
+  .navbar .dropdown .dropdown-toggle {
+    background-color: var(--white-color); /* White background */
+    color: var(--dark-color); /* Dark text color */
+    border-color: var(--white-color); /* White border */
+  }
+}
+
+@media screen and (max-width: 499px) {
+  .navbar .dropdown .dropdown-toggle {
+    background-color: var(--custom-btn-bg-color); /* Custom button blue color */
+    color: var(--white-color); /* White text color */
+    border-color: var(--custom-btn-bg-color); /* Custom button blue border color */
   }
 }
 
@@ -495,7 +509,7 @@ input[type=submit]{
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/templatemo-wave-banner.jpg'), linear-gradient(#348CD2, #FFFFFF);
+  background-image: url('../images/banner.jpg'), linear-gradient(#348CD2, #FFFFFF);
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
@@ -1025,7 +1039,7 @@ input[type=submit]{
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-image: url('../images/templatemo-wave-footer.jpg'), linear-gradient(#FFFFFF, #348CD2);
+  background-image: url('../images/footer.jpg'), linear-gradient(#FFFFFF, #348CD2);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1125,7 +1139,6 @@ input[type=submit]{
 @media screen and (min-width: 2160px) {
 	.hero-section {
 	  background-size: 100% 90%;
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
 	}
 }
 
@@ -1139,7 +1152,6 @@ input[type=submit]{
 @media screen and (max-width: 1240px) {
 	.hero-section {
 	  background-size: 116%;
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
 	}
 }
 
@@ -1170,7 +1182,6 @@ input[type=submit]{
   
   .hero-section {
 	  background-size: 160% 66%; 
-	  /* T o o p l a t e . c o m   C u s t o m i z e d */
 	}
 
   .section-padding {
@@ -1225,7 +1236,6 @@ input[type=submit]{
 @media screen and (max-width: 540px) {
 	.hero-section {
   		background-size: 180% 65%;
-		/* T o o p l a t e . c o m   C u s t o m i z e d */
 	}
 
   .custom-block .custom-block-top {
